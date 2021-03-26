@@ -12,7 +12,7 @@ export const dishIndex = user => {
   })
 }
 
-export const dishCreate = (dish, user) => {
+export const createDish = (dish, user) => {
   return axios({
     url: apiUrl + '/dishes',
     method: 'dish',
